@@ -11,7 +11,7 @@ var router = require('./routes.js');
 
 var app = express();
 module.exports.app = app;
-
+//app.disable('etag');
 // Set what we are listening on.
 app.set('port', 3000);
 
